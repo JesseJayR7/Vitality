@@ -2094,7 +2094,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _initializeModel() async {
-    apiKey = "AIzaSyDsVfGu1yePj-579ILoqIFOPbWBrVq5qtQ";
+    apiKey = String.fromEnvironment('GEMINI_API_KEY');
     if (apiKey.isEmpty) {
       dev.log('API key is not set.');
       return;
