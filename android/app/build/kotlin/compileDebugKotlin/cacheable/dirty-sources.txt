@@ -1,0 +1,1 @@
+C:\Users\LocalAdmin\Desktop\vitality\android\app\src\main\kotlin\com\example\vitality\MainActivity.kt

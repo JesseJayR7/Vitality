@@ -1,0 +1,1 @@
+export 'meals_entity.dart';
