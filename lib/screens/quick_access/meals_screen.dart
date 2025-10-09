@@ -366,7 +366,7 @@ class _MealScreenState extends State<MealScreen> {
                       fontSize: mediaQuery.width * 0.045,
                     )),
                 tooltipBehavior: TooltipBehavior(enable: true),
-                series: <ChartSeries<_MealData, String>>[
+                series: <CartesianSeries<_MealData, String>>[
                   ColumnSeries<_MealData, String>(
                     dataSource: data.take(7).toList(),
                     xValueMapper: (_MealData meals, _) => meals.time,

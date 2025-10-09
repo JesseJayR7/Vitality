@@ -2094,12 +2094,12 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _initializeModel() async {
-    apiKey = "AIzaSyDsVfGu1yePj-579ILoqIFOPbWBrVq5qtQ";
+    apiKey = "AIzaSyBE1Aus8h0k4xVmAHThRSnlYOJ9vumWmsY";
     if (apiKey.isEmpty) {
       dev.log('API key is not set.');
       return;
     }
-    _model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: apiKey);
+    _model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
   }
 
   Future<void> _sendMessage(String message) async {

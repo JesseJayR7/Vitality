@@ -489,7 +489,7 @@ class _HydrateScreenState extends State<HydrateScreen> {
                     textStyle: TextStyle(
                       fontSize: mediaQuery.width * 0.045,
                     )),
-        series: <ChartSeries<_HydrateData, String>>[
+        series: <CartesianSeries<_HydrateData, String>>[
           ColumnSeries<_HydrateData, String>(
             name: 'ml of water drank',
             dataSource: hydrateData,

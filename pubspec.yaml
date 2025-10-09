@@ -58,7 +58,7 @@ dependencies:
   pedometer: ^4.0.1
 
   # charts
-  syncfusion_flutter_charts: ^20.2.48
+  syncfusion_flutter_charts: ^31.1.22
   percent_indicator: ^3.4.0
 
   # selection

@@ -348,7 +348,7 @@ Widget _buildChart(List<_StepData> data) {
       legend: Legend(isVisible: true, position: LegendPosition.bottom, textStyle: TextStyle(
                       fontSize: mediaQuery.width * 0.045,
                     ),),
-      series: <ChartSeries<_StepData, String>>[
+      series: <CartesianSeries<_StepData, String>>[
         ColumnSeries<_StepData, String>(
           dataSource: data.take(7).toList(),
           xValueMapper: (_StepData steps, _) => steps.period,

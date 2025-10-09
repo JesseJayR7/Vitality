@@ -383,7 +383,7 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
                   ),
                 ),
                 tooltipBehavior: TooltipBehavior(enable: true),
-                series: <ChartSeries<_WorkoutData, String>>[
+                series: <CartesianSeries<_WorkoutData, String>>[
                   ColumnSeries<_WorkoutData, String>(
                     dataSource: data.take(7).toList(),
                     xValueMapper: (_WorkoutData workout, _) => workout.timeKey,
